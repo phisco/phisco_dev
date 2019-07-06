@@ -15,7 +15,6 @@ RUN set -x && \
 COPY ./site /site
 
 WORKDIR /site
-RUN ls
 
 RUN /usr/bin/hugo
 
