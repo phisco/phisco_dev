@@ -12,7 +12,7 @@ enableRobotsTXT = true
 editor = "nano"
 languageCode = "en"
 language = "en"
-theme = "vncnt-hugo"
+theme = "hugo-theme-nix"
 title = "Philippe Scorsolini"
 
 [blackfriday]
@@ -23,15 +23,17 @@ title = "Philippe Scorsolini"
   posts = "posts/:slug/"
 
 [params]
-  author = "Philippe Scorsolini"
-  email = "p.scorsolini@gmail.com"
-  description = "DevOps Engineer"
-  bio = "DevOps Engineer @ SIGHUP"
-  avatar = "img/avatar.jpg"
-  favicon = "img/favicon.ico"
-  error404 = "There is no such page."
-
-  [params.contact]
-    github = "https://github.com/phisco"
-    twitter = "https://twitter.com/Phisc0"
-    linkedin = "https://www.linkedin.com/in/phiscor"
+  Name = "Philippe Scorsolini"
+  HeaderUsername = "phisco"
+  HeaderHostname = "localhost"
+  About = "DevOps Engineer @ SIGHUP"
+  ProfilePicture = "/img/avatar.jpg"
+  GithubID = "phisco"
+  Email = "p.scorsolini@gmail.com"
+  LinkedInID = "phiscor"
+  TwitterID = "Phisc0"
+[menu]
+  [[menu.header]]
+    name = "posts"
+    weight = 0
+    url = "/posts"
