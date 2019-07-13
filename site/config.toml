@@ -1,39 +1,89 @@
 baseURL = "https://phisco.dev/"
-# include content marked as draft
-buildDrafts = false
-# include content with publishdate in the future
-buildFuture = false
-# include content already expired
-buildExpired = false
-# enable this to make all relative URLs relative to content root. Note that this does not affect absolute URLs.
-relativeURLs = true
-disableRSS = true
-enableRobotsTXT = true
-editor = "nano"
-languageCode = "en"
-language = "en"
-theme = "hugo-theme-nix"
-title = "Philippe Scorsolini"
+DefaultContentLanguage = "en"
 
-[blackfriday]
-  extensions = ["hardLineBreak"]
+theme = "hello-friend-ng"
+
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+
+rssLimit  = 10  # Maximum number of items in the RSS feed.
+#copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+
+# googleAnalytics = ""
+# disqusShortname = ""
+
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+buildDrafts  = false
+buildFuture  = false
+buildExpired = false
+canonifyURLs = true
+
+enableRobotsTXT = true
+enableGitInfo   = false
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
+
+relativeURLs = true
+title = "Philippe Scorsolini"
+dateform        = "Jan 2, 2006"
+dateformShort   = "Jan 2"
+dateformNum     = "2006-01-02"
+dateformNumTime = "2006-01-02 15:04 -0700"
+# Metadata mostly used in document's head
+description = "Homepage and blog by Philippe Scorsolini"
+keywords = "homepage, blog, informatics, development, programming"
+images = [""]
+# Directory name of your blog content (default is `content/posts`)
+contentTypeName = "posts"
+# Default theme "light" or "dark"
+defaultTheme = "dark"
 
 [permalinks]
-  fixed = ":title/"
-  posts = "posts/:slug/"
+  posts = "/posts/:year/:month/:title/"
+
+[author]
+  name = "Philippe Scorsolini"
+
+[blackfriday]
+  hrefTargetBlank = true
 
 [params]
-  Name = "Philippe Scorsolini"
-  HeaderUsername = "phisco"
-  HeaderHostname = "localhost"
-  About = "DevOps Engineer @ SIGHUP"
-  ProfilePicture = "/img/avatar.jpg"
-  GithubID = "phisco"
-  Email = "p.scorsolini@gmail.com"
-  LinkedInID = "phiscor"
-  TwitterID = "Phisc0"
+  homeSubtitle = "DevOps @ SIGHUP"
+  [params.logo]
+    logoText     = "$ cd ~"
+    logoHomeLink = "/"
+
+  # Social icons
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/Phisc0"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:p.scorsolini@gmail.com"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/phisco"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/phiscor"
 [menu]
-  [[menu.header]]
-    name = "posts"
-    weight = 0
-    url = "/posts"
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about"
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/posts"
