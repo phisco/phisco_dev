@@ -20,6 +20,7 @@ RUN /usr/bin/hugo
 
 FROM nginx:alpine
 
+COPY default.conf /etc/nginx/conf.d
 COPY --from=builder /site/public /usr/share/nginx/html
 
 WORKDIR /usr/share/nginx/html
