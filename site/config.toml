@@ -50,9 +50,6 @@ defaultTheme = "dark"
 [permalinks]
   posts = "/posts/:year/:month/:title/"
 
-[author]
-  name = "Philippe Scorsolini"
-
 [blackfriday]
   hrefTargetBlank = true
 
