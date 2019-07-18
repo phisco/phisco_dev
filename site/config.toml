@@ -1,4 +1,4 @@
-baseURL = "https://blog.phisco.dev/"
+baseURL = "https://phisco.dev/"
 DefaultContentLanguage = "en"
 
 theme = "hello-friend-ng"
