@@ -84,3 +84,7 @@ defaultTheme = "dark"
     identifier = "blog"
     name       = "Blog"
     url        = "/posts"
+  [[menu.main]]
+    identifier = "tags"
+    name       = "tags"
+    url        = "/tags"
