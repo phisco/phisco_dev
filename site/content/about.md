@@ -4,11 +4,20 @@ date: 2019-07-13T19:22:13+02:00
 <!--draft: true-->
 ---
 
-M.Sc. Computer Science and Engineering **'19 @ [Politecnico di Milano](https://polimi.it)**
+Currently: Software Engineer **@ [Controlplane](https://control-plane.io/)**
 
-DevOps Engineer **@ [SIGHUP](https://sighup.io)**
+OSS:
+- Maintainer **@ [cloudnative-pg](https://cloudnative-pg.io/)**
 
-**[CKA](https://www.cncf.io/certification/cka/) & [CKAD](https://www.cncf.io/certification/ckad/)** Certified
+Previously:
+- Software Engineer **@ [EDB](https://www.enterprisedb.com/)**
+- DevOps Engineer **@ [SIGHUP](https://sighup.io)**
 
-<div style="text-align: right"> <b>:heart: Kubernetes, Linux, OSS</b></div>
+Education:
+- M.Sc. Computer Science and Engineering **'19 @ [Politecnico di Milano](https://polimi.it)**
+
+Certifications:
+- **[CKA](https://www.cncf.io/certification/cka/) & [CKAD](https://www.cncf.io/certification/ckad/)** Certified
+
+<div style="text-align: right"> <b>:heart: Kubernetes, PostgreSQL, Linux, OSS</b></div>
 

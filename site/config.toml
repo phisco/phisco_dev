@@ -54,7 +54,7 @@ defaultTheme = "dark"
   hrefTargetBlank = true
 
 [params]
-  homeSubtitle = "DevOps @ SIGHUP"
+  homeSubtitle = "Software Engineer"
   [params.logo]
     logoText     = "$ cd ~"
     logoHomeLink = "/"
