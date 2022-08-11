@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/phisco
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://phisco.dev
+  * I am phisco (https://keybase.io/phisco) on keybase.
+  * I have a public key ASDKUj_oLg9PgDaX0omz_H8cgNdne8G-WHQ9anzj2MwOKgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01200f16105631751737b13469af240d18d1457a043eec3413888e1a6baa25a079f70a",
+      "host": "keybase.io",
+      "kid": "0120ca523fe82e0f4f803697d289b3fc7f1c80d7677bc1be58743d6a7ce3d8cc0e2a0a",
+      "uid": "80c943b2cda6400586dc70642b3f8f19",
+      "username": "phisco"
+    },
+    "merkle_root": {
+      "ctime": 1660204377,
+      "hash": "ce1e2151e2213c41587c6feea6e1a0961956cc149d59cb8a8c26399e9092ab22160819ac1470b86067e7e8a25b72054d6e8559d0e5d4d083bdc76e37fed72406",
+      "hash_meta": "87e2b59808b67b13456e5bb00b285b1f7a0b80edc5a41dea8bf6fc322278cd79",
+      "seqno": 23004301
+    },
+    "service": {
+      "entropy": "vIS93L7psj9FVDmafoC0VSgN",
+      "hostname": "phisco.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.0.2"
+  },
+  "ctime": 1660204403,
+  "expire_in": 504576000,
+  "prev": "eb06f6b88d6b50aefcdd6a396db76f0c88fd829c4064e90abe2ff434f4763cb9",
+  "seqno": 44,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgylI/6C4PT4A2l9KJs/x/HIDXZ3vBvlh0PWp849jMDioKp3BheWxvYWTESpcCLMQg6wb2uI1rUK783Wo5bbdvDIj9gpxAZOkKvi/0NPR2PLnEIB7ci5voSzDppsFiM8IEMmYvs+I3gUo2BwPH8Cr2TTKZAgHCo3NpZ8RAVbzyeuZ7sU6MFy2qiamo5psBP9rZX1MWbM8fpD3O4m4yLL9GQi6d3KXhGX9Oi2yEBgWZwm7vw90nSbJVgnezCqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIO/9Z9NRgZ6ovHKKgs7/tlgb6DS/tGsF3s97CnscsI8Do3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/phisco
+
+==================================================================
