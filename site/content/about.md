@@ -4,12 +4,13 @@ date: 2019-07-13T19:22:13+02:00
 <!--draft: true-->
 ---
 
-Currently: Software Engineer **@ [Controlplane](https://control-plane.io/)**
+Currently: Senior Software Engineer **@ [Upbound](https://www.upbound.io/)**
 
 OSS:
 - Maintainer **@ [cloudnative-pg](https://cloudnative-pg.io/)**
 
 Previously:
+- Software Engineer **@ [Controlplane](https://control-plane.io/)**
 - Software Engineer **@ [EDB](https://www.enterprisedb.com/)**
 - DevOps Engineer **@ [SIGHUP](https://sighup.io)**
 
