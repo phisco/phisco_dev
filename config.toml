@@ -49,6 +49,11 @@ defaultTheme = "dark"
 [permalinks]
   posts = "/posts/:year/:month/:title/"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [blackfriday]
   hrefTargetBlank = true
 
