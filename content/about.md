@@ -4,9 +4,10 @@ date: 2019-07-13T19:22:13+02:00
 <!--draft: true-->
 ---
 
-Currently: Senior Software Engineer **@ [Upbound](https://www.upbound.io/)**
+Currently: Staff Engineer **@ [Upbound](https://www.upbound.io/)**
 
 OSS:
+- Maintainer **@ [Crossplane](https://www.crossplane.io/)**
 - Maintainer **@ [cloudnative-pg](https://cloudnative-pg.io/)**
 
 Previously:
