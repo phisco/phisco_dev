@@ -7,7 +7,7 @@ date: 2019-07-13T19:22:13+02:00
 Currently: Staff Engineer **@ [Upbound](https://www.upbound.io/)**
 
 OSS:
-- Maintainer **@ [Crossplane](https://www.crossplane.io/)**
+- Maintainer **@ [crossplane](https://www.crossplane.io/)**
 - Maintainer **@ [cloudnative-pg](https://cloudnative-pg.io/)**
 
 Previously:
