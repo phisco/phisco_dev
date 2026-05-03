@@ -1,18 +1,18 @@
 @charset "UTF-8";
 
-/* light theme color */
-$light-background: #fff;
-$light-background-secondary: #eaeaea;
-$light-color: #222;
-$light-color-secondary: #999;
-$light-border-color: #dcdcdc;
+/* Catppuccin Latte (light) */
+$light-background: #eff1f5;
+$light-background-secondary: #e6e9ef;
+$light-color: #4c4f69;
+$light-color-secondary: #8c8fa1;
+$light-border-color: #ccd0da;
 
-/* dark theme colors */
-$dark-background: #292a2d;
-$dark-background-secondary: #3b3d42;
-$dark-color: #a9a9b3;
-$dark-color-secondary: #73747b;
-$dark-border-color: #4a4b50;
+/* Catppuccin Mocha (dark) */
+$dark-background: #1e1e2e;
+$dark-background-secondary: #313244;
+$dark-color: #cdd6f4;
+$dark-color-secondary: #6c7086;
+$dark-border-color: #45475a;
 
 $media-size-phone: "(max-width: 684px)";
 $media-size-tablet: "(max-width: 900px)";
