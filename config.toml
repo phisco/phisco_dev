@@ -55,6 +55,10 @@ defaultTheme = "dark"
 
 [params]
   homeSubtitle = "Software Engineer"
+
+  [params.author]
+    name = "Philippe Scorsolini"
+    email = "p.scorsolini@gmail.com"
   [params.logo]
     logoText     = "$ cd ~"
     logoHomeLink = "/"
