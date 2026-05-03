@@ -32,7 +32,6 @@ disableSitemap = false
 disable404     = false
 disableHugoGeneratorInject = false
 
-relativeURLs = true
 title = "Philippe Scorsolini"
 dateform        = "Jan 2, 2006"
 dateformShort   = "Jan 2"
