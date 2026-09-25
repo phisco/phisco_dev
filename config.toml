@@ -53,6 +53,10 @@ defaultTheme = "dark"
     [markup.goldmark.renderer]
       unsafe = true
 
+[services]
+  [services.googleAnalytics]
+    id = "G-K300DDP5S8"
+
 [params]
   homeSubtitle = "Software Engineer"
 
